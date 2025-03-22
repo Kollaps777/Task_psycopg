@@ -164,7 +164,7 @@ class ClientManager:
 # Основной код
 if __name__ == "__main__":
     # Установка соединения с базой данных
-    conn = psycopg2.connect(database="netology_db", user="postgres", password="1Azamat1")
+    conn = psycopg2.connect(database="netology_db", user="postgres", password="yourpassword")
 
     # Создание экземпляра класса ClientManager
     client_manager = ClientManager(conn)
